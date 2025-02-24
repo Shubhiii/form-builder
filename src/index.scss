@@ -109,9 +109,11 @@ input[type=number] {
 // CODE SNIPPET
 .form-data {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
 
   .saved-data {
+    flex: 1;
     pre {
       font-size: 0.875rem;
       padding: 1.5rem;
